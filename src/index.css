@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.typing-effect {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #f0bbd4;
+    animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+}
+
+.typing-effect-delay {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #f0bbd4;
+    animation: typing 2s steps(3) 2s forwards, blink 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink {
+    50% { border-color: transparent; }
+    100% { border-color: #f0bbd4; }
+}
