@@ -7,12 +7,11 @@ const Navigation = ({ open, openDrawer, closeDrawer }) => {
             <div className="flex items-center justify-between">
                 <div className="flex justify-between items-center">
                 <a href="/">
-                    <img src="/assets/images/logo.png" alt="logo" className="w-24" />
+                    <img src="/assets/images/logo.png" alt="logo" className="w-24 transform transition-transform duration-300 hover:scale-110" />
                 </a>
                 <button
                     onClick={openDrawer}
-                    className="bg-transparent text-[40px] normal-case select-none hover:bg-gray-900/10 rounded-lg px-6 py-3"
-                >
+                    className="bg-transparent text-[40px] normal-case select-none transform transition-transform duration-300 hover:scale-110 ml-10">
                     Menu
                 </button>
                 <Drawer open={open} onClose={closeDrawer} className="p-4">
@@ -39,7 +38,7 @@ const Navigation = ({ open, openDrawer, closeDrawer }) => {
                     </List>
                 </Drawer>
                 </div>
-                <div className="border-darkblue border-8 rounded-3xl px-6 flex items-center text-[40px] text-pink">
+                <div className="border-darkblue border-8 rounded-3xl px-6 flex items-center text-[40px] text-pink transform transition-transform duration-300 hover:scale-105">
                     <a href="mailto:edelhongervacio@gmail.com">Let's talk!</a>
                 </div>
             </div>
