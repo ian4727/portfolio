@@ -3,6 +3,7 @@ import Navigation from './components/Navigation';
 import Main from './components/Main';
 import About from './components/About';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App() {
     const [drawerOpen, setDrawerOpen] = useState(false);
@@ -15,6 +16,7 @@ function App() {
             <Main />
 			<About />
             <Projects />
+            <Footer />
         </div>
     );
 }
