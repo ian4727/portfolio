@@ -6,28 +6,28 @@ const About = () => {
 			<h1 className="text-6xl font-bold mb-32">Career History</h1>
 			<ul className="flex items-center w-full justify-center">
 				<li className="border-8 rounded-full p-4 border-darkblue">
-					<img src="/src/assets/images/telephone.png" alt="Phone" />
+					<img src="/assets/images/telephone.png" alt="Phone" />
 				</li>
 				<div className="w-96 h-2 bg-darkblue"></div>
 				<li className="border-8 rounded-full p-4 border-darkblue">
-					<img src="/src/assets/images/blackboard.png" alt="Phone" />
+					<img src="/assets/images/blackboard.png" alt="Phone" />
 				</li>
 				<div className="w-96 h-2 bg-darkblue"></div>	
 				<li className="border-8 rounded-full p-4 border-darkblue">
-					<img src="/src/assets/images/programming.png" alt="Phone" />
+					<img src="/assets/images/programming.png" alt="Phone" />
 				</li>
 			</ul>
 			<div className="flex pt-10 justify-center items-start gap-80">
 				<div className="flex flex-col gap-4">
-					<img src="/src/assets/images/fis.png" alt="FIS" className="w-20" />
-					<img src="/src/assets/images/qb.png" alt="QuickBooks" className="w-36" />
-					<img src="/src/assets/images/comcast.png" alt="Comcast" className="w-20" />
-					<img src="/src/assets/images/twc.png" alt="Time Warner Cable" className="w-20" />
-					<img src="/src/assets/images/att.png" alt="at&t" className="w-20" />
+					<img src="/assets/images/fis.png" alt="FIS" className="w-20" />
+					<img src="/assets/images/qb.png" alt="QuickBooks" className="w-36" />
+					<img src="/assets/images/comcast.png" alt="Comcast" className="w-20" />
+					<img src="/assets/images/twc.png" alt="Time Warner Cable" className="w-20" />
+					<img src="/assets/images/att.png" alt="at&t" className="w-20" />
 				</div>
-				<img src="/src/assets/images/occ.png" alt="OneCodeCamp" className="w-44 h-14" />
+				<img src="/assets/images/occ.png" alt="OneCodeCamp" className="w-44 h-14" />
 				<div className="flex items-center">
-					<img src="/src/assets/images/saib.png" alt="Softwarez at it's best" className="w-22 h-14" />
+					<img src="/assets/images/saib.png" alt="Softwarez at it's best" className="w-22 h-14" />
 					<p className="text-black text-2xl font-extrabold">SAIB</p>	
 				</div>
 				

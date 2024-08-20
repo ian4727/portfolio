@@ -7,7 +7,7 @@ const Navigation = ({ open, openDrawer, closeDrawer }) => {
             <div className="flex items-center justify-between">
                 <div className="flex justify-between items-center">
                 <a href="/">
-                    <img src="/src/assets/images/logo.png" alt="logo" className="w-24" />
+                    <img src="/assets/images/logo.png" alt="logo" className="w-24" />
                 </a>
                 <button
                     onClick={openDrawer}

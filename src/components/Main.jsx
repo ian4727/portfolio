@@ -9,7 +9,7 @@ const Main = () => {
                     <p className="text-xl xl:text-[50px] leading-tight">I'm a Coding Instructor and FrontEnd Web Developer from the Philippines.</p>
                 </div>
                 <div>
-                    <img src="/src/assets/images/ian.png" className="curved-bottom" alt="Animated photo" />
+                    <img src="/assets/images/ian.png" className="curved-bottom" alt="Animated photo" />
                 </div> 
             </div>
             <div className="flex justify-center">

@@ -7,7 +7,7 @@ const Projects = () => {
         <ul className="grid grid-cols-2">
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
                 {/* <iframe src="https://frugalearth.pythonanywhere.com/" className="w-full h-48" title="Project Preview"></iframe> */}
-                <img src="/src/assets/images/frugalearth.png" alt="" />
+                <img src="/assets/images/frugalearth.png" alt="" />
                 <div className="p-6">
                     <h3 className="text-xl font-bold mb-2">Frugal Earth</h3>
                     <p className="text-gray-700 mb-4">Short description of the project.</p>
