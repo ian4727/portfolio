@@ -2,28 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-.typing-effect {
-    display: inline-block;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 2px solid #f0bbd4;
-    animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+:root {
+
+    --custom-gradient: linear-gradient(90deg, rgba(60,62,167,1) 0%, rgba(76,92,140,1) 35%, rgba(255,255,255,1) 100%);
+
+    .typing-effect {
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 6px solid #4c5c8c;
+        animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+    }
+    
+    @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+    }
+    
+    @keyframes blink {
+        50% { border-color: transparent; }
+        100% { border-color: #f0bbd4; }
+    }
+    
+    .curved-bottom {
+        clip-path: polygon(100% 0, 100% 89%, 88% 91%, 76% 94%, 55% 98%, 30% 98%, 10% 93%, 0 88%, 0 0);
+    }    
+
+    .gradient {
+        background: rgb(60,62,167);
+        background: linear-gradient(90deg, rgba(60,62,167,1) 0%, rgba(76,92,140,1) 35%, rgba(255,255,255,1) 100%);
+    }
 }
 
-.typing-effect-delay {
-    display: inline-block;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 2px solid #f0bbd4;
-    animation: typing 2s steps(3) 2s forwards, blink 0.5s step-end infinite alternate;
-}
-
-@keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-}
-
-@keyframes blink {
-    50% { border-color: transparent; }
-    100% { border-color: #f0bbd4; }
-}

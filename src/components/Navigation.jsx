@@ -1,53 +1,50 @@
 import React from "react";
+import { Drawer, IconButton, List, ListItem } from "@material-tailwind/react";
 
-import {
-    Drawer,
-    Button,
-    Typography,
-    IconButton,
-  } from "@material-tailwind/react";
-
-const Navigation = () => {
-    const [open, setOpen] = React.useState(false);
-    const openDrawer = () => setOpen(true);
-    const closeDrawer = () => setOpen(false);
-
+const Navigation = ({ open, openDrawer, closeDrawer }) => {
     return (
-        <nav className="fixed w-full top-0 p-10">
+        <nav className="fixed w-full top-0 p-20  backdrop-blur-sm shadow-none z-50">
             <div className="flex items-center justify-between">
-                <div className="flex justify-between w-40 items-center">
-                    <a href="/">
-                        <img src="/src/assets/images/logo.png" alt="logo" className="w-20"/>
-                    </a>
-                    <Button onClick={openDrawer} className="bg-transparent text-2xl normal-case">Menu</Button>
-                    <Drawer open={open} onClose={closeDrawer} className="p-4">
-                        <div className="mb-6 flex items-center justify-between">
-                            <Typography variant="h5" color="blue-gray">About Me</Typography>
-                            <IconButton variant="text" color="blue-gray" onClick={closeDrawer}>
+                <div className="flex justify-between items-center">
+                <a href="/">
+                    <img src="/src/assets/images/logo.png" alt="logo" className="w-28" />
+                </a>
+                <button
+                    onClick={openDrawer}
+                    className="bg-transparent text-[40px] normal-case select-none hover:bg-gray-900/10 rounded-lg px-6 py-3"
+                >
+                    Menu
+                </button>
+                <Drawer open={open} onClose={closeDrawer} className="p-4">
+                    <div className="mb-6 flex flex-col">
+                        <IconButton variant="text" className="ml-auto text-[#4c5c8c]" onClick={closeDrawer}>
                             <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                strokeWidth={2}
-                                stroke="currentColor"
-                                className="h-5 w-5"
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        d="M6 18L18 6M6 6l12 12"
-                                    />
-                                </svg>
-                            </IconButton>
-                        </div>
-                    </Drawer>
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            strokeWidth={2}
+                            stroke="currentColor"
+                            className="h-5 w-5"
+                            >
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </IconButton>
+                    </div>
+                    <List className="text-[#4c5c8c] dark:text-white">
+                    <ListItem>About Me</ListItem>
+                    <ListItem>My Projects</ListItem>
+                    <ListItem>Character References</ListItem>
+                    <ListItem>Download my CV</ListItem>
+                    <ListItem>Let's Connect!</ListItem>
+                    </List>
+                </Drawer>
                 </div>
-                <div className="border-[#f0bbd4] border-2 rounded-xl p-4 flex items-center h-12 text-xl">
-                    <a href="mailto:edelhongervacio@gmail.com">Let's talk business!</a>
+                <div className="border-darkblue border-8 rounded-3xl px-6 flex items-center text-[40px] text-pink">
+                    <a href="mailto:edelhongervacio@gmail.com">Let's talk!</a>
                 </div>
-            </div>   
+            </div>
         </nav>
-    )
-}
+    );
+};
 
-export default Navigation
+export default Navigation;
