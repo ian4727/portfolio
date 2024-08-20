@@ -2,7 +2,7 @@
 
 const Footer = () => {
     return (
-        <footer className="bg-darkblue w-full h-96 text-white p-24">
+        <footer className="bg-darkblue w-full h-[450px] text-white p-24">
             <div className="flex justify-between">
                 <div>
                     <h1 className="text-6xl font-bold mb-14">Let's Connect!</h1>
@@ -24,7 +24,7 @@ const Footer = () => {
                         </li> */}
                     </ul>
                 </div> 
-                <ul className="flex flex-col justify-start w-[50%] gap-10 text-2xl">
+                <ul className="flex flex-col justify-start w-[45%] gap-10 text-2xl">
                     <li className="flex items-center">
                         <img src="/assets/images/smartphone.png" alt="Mobile" className="w-14 mr-4" />
                         {/* <p>Mobile number</p> */}
@@ -40,7 +40,7 @@ const Footer = () => {
                     </li>
                 </ul>
             </div>
-            <p>All rights reserved Ian Gervacio &#169;</p>
+            <p className="text-center mt-20">&#169; Ian Gervacio. All rights reserved.</p>
         </footer>
     )
 }
