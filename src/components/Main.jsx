@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation"
 const Main = () => {
     return (
         <main className="px-20 xl:px-32 pt-52 xl:pt-60 xl:h-screen xl:w-screen flex flex-col justify-between ">
-            <div className="flex flex-col-reverse items-center justify-between h-[90%] gap-10 xl:gap-0">
+            <div className="flex flex-col-reverse xl:flex-row items-center justify-between h-[90%] gap-10 xl:gap-0">
                 <div className="relative z-10 text-center xl:text-left">
                     <p className="text-[40px] xl:text-[80px] font-bold leading-tight">
                         Hi! My name is
