@@ -4,7 +4,7 @@ import React from "react";
 // const Navigation = ({ open, openDrawer, closeDrawer }) => {
 const Navigation = () => {
     return (
-        <nav className="fixed w-full top-0 p-10 xl:p-20 backdrop-blur-lg shadow-none z-50">
+        <nav className="fixed w-full top-0 p-10 xl:px-20 py-10 backdrop-blur-lg shadow-none z-50">
             <div className="flex items-center justify-between">
                 {/* <div className="flex justify-between items-center"> */}
                     <div>
