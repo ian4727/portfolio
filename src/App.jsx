@@ -7,19 +7,22 @@ import Footer from './components/Footer';
 import About from './components/About';
 
 function App() {
-    const [drawerOpen, setDrawerOpen] = useState(false);
-	const openDrawer = () => setDrawerOpen(true);
-	const closeDrawer = () => setDrawerOpen(false);
+    // const [drawerOpen, setDrawerOpen] = useState(false);
+	// const openDrawer = () => setDrawerOpen(true);
+	// const closeDrawer = () => setDrawerOpen(false);
 
     return (
-        <div className={`bg-[#F4F9FD] text-darkblue font-sans tracking-wider leading-loose ${drawerOpen ? '!bg-gray-900/50 !backdrop-blur-sm !pointer-events-none' : ''}`}>
-            <Navigation open={drawerOpen} openDrawer={openDrawer} closeDrawer={closeDrawer} />
+        <>
+            {/* // <div className={`bg-[#F4F9FD] text-darkblue font-sans tracking-wider leading-loose ${drawerOpen ? '!bg-gray-900/50 !backdrop-blur-sm !pointer-events-none' : ''}`}> */}
+            {/* <Navigation open={drawerOpen} openDrawer={openDrawer} closeDrawer={closeDrawer} /> */}
+            <Navigation />
             <Main />
             <About />
 			<Experience />
             <Projects />
             <Footer />
-        </div>
+            {/* // </div> */}
+        </>  
     );
 }
 
