@@ -2,7 +2,7 @@ import React from 'react';
 
 const Experience = () => {
     return (
-        <section className="xl:w-screen xl:h-screen px-10 xl:px-32 pt-80">
+        <section className="px-10 xl:px-32 pt-80">
 			<h1 className="text-4xl xl:text-6xl font-bold mb-32 text-center xl:text-left">Career History</h1>
 			<ul className="flex flex-col xl:flex-row items-center w-full justify-center relative">
 				<li className="border-8 rounded-full p-4 border-darkblue">

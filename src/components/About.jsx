@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <section className="px-6 xl:px-32 pt-60 xl:pt-80 h-screen w-screen">
+        <section className="px-6 xl:px-32 pt-60 xl:pt-80">
             <h1 className="text-4xl xl:text-6xl font-bold mb-32 text-center xl:text-left">Get to know me</h1>
             <div className="text-md xl:text-3xl flex flex-col gap-10 xl:gap-20 justify-center">
                 <div className="transform transition-transform duration-300 hover:scale-110">
