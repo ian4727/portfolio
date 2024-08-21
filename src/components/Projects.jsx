@@ -2,8 +2,8 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <section className="xl:w-screen xl:h-screen py-60 pt-80 xl:my-80">
-        <h1 className="text-4xl xl:text-6xl font-bold mb-32 text-center xl:text-left px-6 xl:px-32">Projects</h1>
+    <section className="py-96 pb-60">
+        <h1 className="text-4xl xl:text-6xl font-bold mb-32 text-center xl:text-left px-6 xl:px-32 z-10">Projects</h1>
         <div className="flex justify-center pb-10">
             <ul className="grid xl:grid-cols-2 gap-10 w-[70%] relative">
                 <li className="bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 z-10">
