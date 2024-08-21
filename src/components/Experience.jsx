@@ -10,7 +10,7 @@ const Experience = () => {
 				</li>
 					<img src="/assets/images/fis.png" alt="FIS" className="w-16 absolute top-28 left-16 xl:hidden" />
 					<img src="/assets/images/qb.png" alt="QuickBooks" className="w-16 absolute top-32 right-16 xl:hidden" />
-					<img src="/assets/images/comcast.png" alt="Comcast" className="w-16 absolute top-40 left-16 xl:hidden0" />
+					<img src="/assets/images/comcast.png" alt="Comcast" className="w-16 absolute top-40 left-16 xl:hidden" />
 					<img src="/assets/images/twc.png" alt="Time Warner Cable" className="w-16 absolute top-44 right-16 xl:hidden" />
 					<img src="/assets/images/att.png" alt="at&t" className="w-16 absolute top-56 left-16 xl:hidden" />
 				<div className="w-2 xl:w-96 h-40 xl:h-2 bg-darkblue"></div>

@@ -11,10 +11,10 @@ const Projects = () => {
                         <div className="bg-[url('/assets/images/frugalearth.png')] bg-cover h-[400px] p-4 w-full">
 
                         </div>
-                        {/* <img src="/assets/images/frugalearth.png" alt="Frugal earth" className="h-[230px] xl:h-[600px]" /> */}
                         <div className="p-6">
-                            <h3 className="xl:text-xl font-bold mb-2">Frugal Earth</h3>
-                            <p className="mb-4">This is my University Capstone Project. Frugal earth is a trading platform for people looking to Declutter old belongings. </p>
+                            <h3 className="xl:text-2xl font-bold mb-2">Frugal Earth</h3>
+                            <p className="mb-4">This is my University Capstone Project. Frugal earth is a trading platform for people looking to declutter old belongings. </p>
+                            <p><span className="font-bold">Technologies Learned:</span> Django Framework, SQLite</p>
                             <a href="https://frugalearth.pythonanywhere.com/" className="text-pink hover:underline" target="_blank">View Project</a>
                         </div>
                     </a>
@@ -23,8 +23,9 @@ const Projects = () => {
                     <iframe src="https://crashr.io/" className="w-full h-[400px] p-4 rounded-xl" title="Project Preview">
                     </iframe>
                     <div className="p-6">
-                            <h3 className="text-xl font-bold mb-2">Crashr</h3>
-                            <p className="mb-4">Crashr is a Web3 Trading Platform </p>
+                            <h3 className="text-2xl font-bold mb-2">Crashr</h3>
+                            <p className="mb-4">Crashr is a Web3 Trading Platform.</p>
+                            <p><span className="font-bold">Technologies Learned:</span> Blazor, Tailwind, MudBlazor</p>
                             <div>
                                 <a href="https://crashr.io/" className="text-pink hover:underline" target="_blank">View Project</a>
                                 <a href=""></a>

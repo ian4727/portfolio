@@ -9,7 +9,7 @@ const Navigation = () => {
                 {/* <div className="flex justify-between items-center"> */}
                     <div>
                         <a href="/">
-                            <img src="/assets/images/logo.png" alt="logo" className="w-16 xL:w-24 transform transition-transform duration-300 hover:scale-110" />
+                            <img src="/assets/images/logo.png" alt="logo" className="w-16 xl:w-24 transform transition-transform duration-300 hover:scale-110" />
                         </a>
                     </div>
                     
@@ -44,8 +44,8 @@ const Navigation = () => {
                 {/* </div> */}
                 <div>
                     <a href="mailto:edelhongervacio@gmail.com">
-                        <button className="animated-gradient-border text-[15px] xl:text-[30px] !font-normal !normal-case !rounded-2xl !bg-gradient-to-r from-darkblue via-pink to-white p-1 !xl:p-2 transform transition-transform duration-300 hover:scale-105">
-                            <div className="flex rounded-[10px] bg-[#F4F9FD] items-center justify-center py-[5px] px-4 xs:px-[10px] sm:px-[30px]">
+                        <button className="animated-gradient-border text-[15px] xl:text-[30px] !font-normal !normal-case !rounded-2xl !bg-gradient-to-r from-darkblue via-pink to-white p-2 transform transition-transform duration-300 hover:scale-105">
+                            <div className="flex rounded-[10px] bg-[#F4F9FD] items-center justify-center py-[5px] px-6">
                                 Let's talk!
                             </div>
                         </button>
