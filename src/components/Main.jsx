@@ -1,12 +1,29 @@
-import React from "react"
+import { TypeAnimation } from "react-type-animation"
 
 const Main = () => {
     return (
         <main className="px-24 xl:px-32 pt-52 xl:pt-60 h-screen w-screen flex flex-col justify-between ">
             <div className="flex items-center justify-between h-[90%]">
                 <div className="relative z-10">
-                    <p className="text-3xl xl:text-[80px] font-bold typing-effect leading-tight">Hi! My name is <span className="text-pink font-extrabold">Ian</span>.</p>
-                    <p className="text-xl xl:text-[50px] leading-tight">I'm a Coding Instructor and FrontEnd Web Developer from the Philippines.</p>
+                    <p className="xl:text-[80px] font-bold leading-tight">
+                        Hi! My name is
+                        <span className="text-pink font-extrabold"> Ian</span>.
+                    </p>
+                    <p className="text-xl xl:text-[50px] leading-tight">
+                        I'm a
+                        <TypeAnimation
+                            sequence={[
+                                " Coding Instructor",
+                                1000,
+                                " Frontend Developer",
+                                1000,
+                                " Traveler",
+                                1000,
+                            ]}
+                            wrapper="span"
+                            speed={50}
+                            repeat={Infinity} />
+                    </p>
                 </div>
                 <div>
                     <img src="/assets/images/ian.png" className="curved-bottom" alt="Animated photo" />
@@ -18,7 +35,7 @@ const Main = () => {
                 </svg>
             </div>
             <div className="absolute w-96 h-56 rounded-full filter blur-[50px] top-[600px] left-1 bg-blue z-0"></div>
-            <div className="absolute w-96 h-56 rounded-full filter blur-[70px] top-[70rem] right-72 bg-pink z-0"></div>
+            <div className="absolute w-96 h-56 rounded-full filter blur-[100px] top-[70rem] right-72 bg-pink z-0"></div>
         </main>  
     )
 }
