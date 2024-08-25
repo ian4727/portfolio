@@ -5,7 +5,7 @@ const Projects = () => {
     <section className="py-96 pb-60">
         <h1 className="text-4xl xl:text-6xl font-bold mb-32 text-center xl:text-left px-6 xl:px-32 z-10">Projects</h1>
         <div className="flex justify-center pb-10">
-            <ul className="flex flex-col gap-10 relative px-20">
+            <ul className="flex flex-col gap-10 relative px-2 xl:px-20">
                 <li className="bg-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:scale-105 z-10">
                     <a href="https://frugalearth.pythonanywhere.com/">
                         <div className="bg-[url('/assets/images/frugalearth.png')] bg-cover h-[400px] p-4 w-full">
